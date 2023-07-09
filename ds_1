@@ -1,0 +1,7 @@
+def palindrome(n): 
+    return n[::-1]==n
+while True: 
+    n=input("ведите слово: ")
+    print(f"(n) True" if 
+    palindrome(n) else 'False')
+    
